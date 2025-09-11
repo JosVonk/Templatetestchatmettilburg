@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Gemini Template - Tom Naberink',
-  description: 'Een template om te werken met Gemini AI - Gemaakt door Tom Naberink',
+  title: 'Sports Marketing Interview Bot',
+  description: 'Interview marketing managers van toonaangevende sportmerken - Educatieve AI tool',
 }
 
 export default function RootLayout({

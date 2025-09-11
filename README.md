@@ -1,334 +1,218 @@
-# 🚀 Ultimate AI Education Template - Next.js
+# 🏒 Sports Marketing Interview Bot
 
-> **Een complete, professionele AI template met Gemini API, camera, multi-file upload, audio transcriptie, advanced TTS en meer!**
+> **Een interactieve AI-chatbot waarmee studenten marketing managers van sportmerken kunnen interviewen**
 >
-> **Gemaakt door Tom Naberink voor de onderwijssector**
+> **Gemaakt voor marketing- en sport business onderwijs**
 
-Een geavanceerde Next.js template die **alles** biedt wat je nodig hebt voor innovatieve AI-projecten in het onderwijs. Van simpele chatbots tot complexe multi-modal AI applicaties - dit is je startpunt!
+Een gespecialiseerde Next.js applicatie die studenten de mogelijkheid geeft om realistische gesprekken te voeren met AI-gestuurde marketing managers van toonaangevende sportmerken. Perfect voor het leren over merkstrategie, sponsoring, en uitdagingen in de sportindustrie.
 
-## ✨ Complete Feature Set
+## ✨ Features
 
-### 🎯 **Core AI Functionaliteiten**
-- 🧠 **Multi-Model AI**: Gemini 2.5 Pro, 2.5 Flash, en 2.0 Flash met internet toegang
-- 🌐 **Real-time Internet Access**: Gemini 2.0 Flash met Google Search integration
-- 🎵 **Audio Transcriptie**: Gemini 2.5 Flash voor speech-to-text
-- 📸 **Multi-Image Analysis**: Meerdere afbeeldingen tegelijk analyseren
-- 💬 **Markdown Rendering**: Perfecte opmaak van AI responses
-- 🗣️ **Spraakherkenning**: Browser native voice input
-- ⚡ **Streaming Responses**: Real-time AI response weergave
+### 🎯 **Educatieve Gesprekken**
+- 🧠 **Realistische Personas**: Gedetailleerde marketing manager karakters met echte branche-expertise
+- 💬 **Interactieve Interviews**: Natuurlijke gesprekken over marketing strategieën
+- 📚 **Leergerichte Content**: Praktische inzichten die studenten kunnen toepassen
+- 🎓 **Voor Studenten**: Speciaal ontworpen voor marketing en sport business onderwijs
 
-### 🔊 **Advanced Text-to-Speech (TTS)**
-- 🎙️ **Dual TTS Engines**: Microsoft TTS (standaard) + Gemini AI TTS
-- 🎭 **30 Gemini Voices**: Van Zephyr tot Sulafat met unieke karakteristieken
-- 😊 **7 Emotion Styles**: Neutraal, Gelukkig, Enthousiast, Kalm, Professioneel, Vriendelijk, Informatief
-- ⚡ **Speed Control**: 4 snelheden voor Microsoft TTS (0.75x tot 2.0x)
-- ⚙️ **Unified Settings**: Één settings dropdown voor alle TTS opties
-- 📱 **Responsive Interface**: Geoptimaliseerd voor alle schermformaten
+### 🏒 **Sportmerk Focus**
+- **Dita Hockey**: Nederlandse premium hockeymerk sinds 1891
+- 🌟 **Meer merken**: Uitbreidbaar naar andere sportmerken
+- 🏆 **Echte Branche Inzichten**: Gebaseerd op werkelijke uitdagingen en trends
+- 🎯 **Specifieke Expertise**: Van sponsoring tot internationale expansie
 
-### 📁 **Geavanceerd File Management**
-- 🖼️ **Afbeeldingen**: JPG, PNG, GIF, WebP, BMP - met preview en multi-select
-- 📄 **Documenten**: PDF, DOCX, TXT, MD - automatische tekst extractie
-- 📊 **Data**: CSV, JSON - gestructureerde data analyse
-- 🎵 **Audio**: MP3, WAV, OGG, M4A, AAC, FLAC, MP4, WebM - auto-transcriptie
-- 📱 **Camera Capture**: Direct foto's maken vanuit de browser
-- 🎯 **Drag & Drop**: Bestanden slepen en neerzetten
-- 📋 **Copy/Paste**: Afbeeldingen, URLs en tekst plakken
-- ✅ **Batch Processing**: Meerdere bestanden tegelijk selecteren en verwerken
+### 🚀 **Technische Features**
+- ⚡ **Real-time Streaming**: Live AI responses voor natuurlijke gesprekken
+- 📱 **Responsive Design**: Werkt perfect op alle apparaten
+- 🔊 **Text-to-Speech**: Luister naar de antwoorden van marketing managers
+- 📄 **Export Functionaliteit**: Download gesprekken als Word documenten
+- 📋 **Copy to Clipboard**: Eenvoudig delen van inzichten
 
-### 🎨 **User Experience**
-- 💜 **Modern Design**: Strakke paarse interface met Tailwind CSS
-- 📱 **Mobile First**: Perfect responsive op alle apparaten
-- ⚡ **Real-time Feedback**: Loading states, progress indicators
-- 🎮 **Keyboard Shortcuts**: Enter om te verzenden, Ctrl+V om te plakken
-- 🔒 **Secure**: Alle API keys blijven server-side
-- 📄 **Word Export**: AI responses exporteren naar Word documenten
-- 📋 **One-Click Copy**: Responses kopiëren naar klembord
+## 🚀 Quick Start
 
-### 🚀 **Deployment & Performance**
-- 🌐 **Netlify Optimized**: Perfect voor Bolt.new deployment
-- ⚡ **Next.js 15**: Nieuwste versie met optimale performance
-- 🔧 **TypeScript**: Volledig type-safe development
-- 📦 **Lean Dependencies**: Alleen wat nodig is, geen bloat
+### Stap 1: 🔑 API Key Verkrijgen
+Verkrijg een gratis Gemini API key van [Google AI Studio](https://makersuite.google.com/app/apikey)
 
-## 🚀 Quick Start: Van 0 naar AI in 5 Minuten!
-
-### Stap 1: 🍴 Fork dit template in GitHub
-Fork dit template in GitHub. Ga naar [github.com](https://github.com) en login in. Ga dan naar deze pagina: [https://github.com/TomNaberink/apitemplateTom](https://github.com/TomNaberink/apitemplateTom)
-Klik rechtsbovenin op 'Use this template', geef het een gepaste naam voor je project en klik op 'create fork'.
-
-### Stap 2: 📥 Import in Bolt.new
-Open [Bolt.new](https://bolt.new) en login. Selecteer 'import from github' en login op GitHub. Kies dan de 'repository' die je net hebt geforkt.
-
-### Stap 3: 🔑 API Keys Verkrijgen
-**Vereist:** [Gemini API Key](https://makersuite.google.com/app/apikey) (gratis)
-
-⚠️ **Kosten**: Gemini heeft een genereuze gratis tier voor alle functionaliteiten inclusief audio transcriptie.
-
-### Stap 4: 🛠️ Project Setup
+### Stap 2: 🛠️ Project Setup
 ```bash
 # Clone het project
-git clone https://github.com/TomNaberink/templateAPIinclcamera.git
-cd templateAPIinclcamera
+git clone [repository-url]
+cd sports-marketing-interview-bot
 
 # Dependencies installeren
 npm install
 
 # Environment variables
 cp .env.example .env.local
-# Edit .env.local en voeg je API keys toe
+# Edit .env.local en voeg je API key toe:
+# GEMINI_API_KEY=your_gemini_api_key_here
 ```
 
-### Stap 5: 🔧 Environment Configuration
-Maak `.env.local` aan met je API keys:
-
-```env
-# VEREIST: Voor alle Gemini AI functionaliteiten (inclusief audio transcriptie)
-GEMINI_API_KEY=your_gemini_api_key_here
-```
-
-### Stap 6: 🎉 Start & Test
+### Stap 3: 🎉 Start & Test
 ```bash
 npm run dev
 # Open http://localhost:3000
-# Test alle features met de ingebouwde interface!
+# Begin je eerste interview met Sarah van der Berg van Dita Hockey!
 ```
 
-### Stap 7: 🚀 Deploy naar Netlify
+### Stap 4: 🚀 Deploy naar Netlify
 1. **In Bolt.new**: "Deploy to Netlify"
 2. **Environment Variables toevoegen** in Netlify dashboard:
-   - `GEMINI_API_KEY` (vereist voor alle functionaliteiten)
+   - `GEMINI_API_KEY` (vereist)
 3. **Deploy** en je app is live!
 
-## 📋 Volledige Feature Demonstratie
+## 🎭 Marketing Manager Personas
 
-### 🎯 **AI Model Selector**
-```
-🧠 Gemini 2.5 Pro: Hoogste kwaliteit, diepgaande analyse
-⚡ Gemini 2.5 Flash: Beste balans snelheid & kwaliteit (standaard)
-🌐 Gemini 2.0 Flash: Internet toegang + Google Search (minder slim model)
-```
+### 🏒 Sarah van der Berg - Dita Hockey
+**Achtergrond:**
+- 8 jaar ervaring in sportmarketing
+- Voormalig hockeyster op nationaal niveau
+- Master in Sport Business Management
+- Gespecialiseerd in premium merkpositionering
 
-### 🔊 **Text-to-Speech Demo**
-```
-1. Schrijf een AI response
-2. Klik op ⚙️ voor TTS instellingen
-3. Kies tussen Microsoft TTS (standaard) of Gemini AI TTS
-4. Microsoft: Pas snelheid aan (4 opties)
-5. Gemini: Kies stem (30 opties) + emotie (7 opties)
-6. Klik 🔊 om audio af te spelen
-```
+**Expertise:**
+- Premium merkpositionering
+- Sponsoring en partnerships
+- Internationale marktexpansie
+- Product marketing voor sportuitrusting
+- Digital marketing in sport
+- Influencer marketing met atleten
+- Retail en distributie strategieën
+- Merkactivatie tijdens toernooien
 
-### 🎯 **Multi-Modal AI Conversaties**
-```
-✅ Upload 3 afbeeldingen + audio bestand + PDF document
-✅ Selecteer welke bestanden je wilt analyseren  
-✅ Vraag: "Vergelijk deze afbeeldingen met de audio transcriptie"
-✅ Gemini analyseert alles tegelijk en geeft uitgebreid antwoord
-✅ Luister naar response met TTS + download als Word
-```
+**Over Dita:**
+- Nederlands premium hockeymerk sinds 1891
+- Bekend om CompoTec technologie
+- Gebruikt door topspelers wereldwijd
+- Sterke aanwezigheid in Europa, Azië en Oceanië
+- Focus op innovatie, kwaliteit en Nederlandse vakmanschap
 
-### 📸 **Camera & Vision**
-- 📷 Direct foto's maken in de browser
-- 🖼️ Afbeelding preview met bewerking opties
-- 👁️ Gemini Vision voor object/tekst herkenning
-- 🔄 Multi-image comparison en analyse
+## 📚 Educatieve Toepassingen
 
-### 🎵 **Audio Processing Pipeline**
-```
-Audio Upload → Gemini Transcriptie → Gemini Analyse → Markdown Response → TTS Output
-```
-- Ondersteunt 6 audio formaten (MP3, WAV, AIFF, AAC, OGG, FLAC)
-- Nederlandse prompt voor optimale transcriptie
-- Tot 25MB bestanden (inline data limiet)
-- Perfecte transcriptie kwaliteit met Gemini 2.5 Flash
+### 👨‍🏫 **Voor Docenten**
+- 🎯 **Praktijkgerichte Lessen**: Laat studenten echte marketing uitdagingen ontdekken
+- 📊 **Case Study Material**: Gebruik gesprekken als basis voor analyses
+- 🎓 **Assessment Tool**: Beoordeel studenten op hun interviewvaardigheden
+- 💡 **Inspiratie voor Projecten**: Studenten kunnen eigen merkstrategieën ontwikkelen
 
-### 📁 **Smart File Management**
-- **Visual File Manager**: Grid view met previews
-- **Batch Selection**: Checkboxes voor multi-select
-- **Type Icons**: 📸 🎵 📄 📊 voor duidelijke herkenning
-- **Size & Date Info**: Complete metadata weergave
-- **Drag & Drop Zones**: Visuele feedback bij slepen
+### 👩‍🎓 **Voor Studenten**
+- 🗣️ **Interview Skills**: Oefen het stellen van de juiste vragen
+- 🧠 **Branche Inzicht**: Leer over echte uitdagingen in sportmarketing
+- 📈 **Strategisch Denken**: Begrijp hoe merkpositionering werkt
+- 🌍 **Internationale Perspectieven**: Ontdek globale marketing strategieën
+
+### 🏫 **Curriculum Integratie**
+- **Marketing Management**: Merkstrategie en positionering
+- **Sport Business**: Sponsoring en partnerships
+- **International Business**: Globale expansie strategieën
+- **Digital Marketing**: Social media en influencer marketing
+- **Consumer Behavior**: Doelgroep analyse in sport
 
 ## 🛠️ Technical Architecture
 
 ### 📂 **Project Structure**
 ```
-├── 🔑 .env.local                 # API Keys (maak zelf aan)
-├── 📦 package.json               # Dependencies & scripts
+├── 🔑 .env.local                 # API Keys
+├── 📦 package.json               # Dependencies
 ├── ⚙️ next.config.js             # Next.js configuration
-├── 🌐 netlify.toml               # Netlify deployment config
-├── 📋 README.md                  # Deze documentatie
 └── src/
     ├── 🎨 app/
-    │   ├── 🌍 globals.css         # Tailwind CSS styling
-    │   ├── 📱 layout.tsx          # App layout & metadata
-    │   ├── 🏠 page.tsx            # Main interface
+    │   ├── 🌍 globals.css         # Styling
+    │   ├── 📱 layout.tsx          # App layout
+    │   ├── 🏠 page.tsx            # Main page
     │   └── 🔌 api/
-    │       ├── 💬 chat/route.ts            # Gemini AI endpoint
-    │       ├── 🌊 chat-stream/route.ts     # Streaming responses
-    │       ├── 🔊 generate-tts/route.ts    # Gemini TTS endpoint
-    │       ├── 🎵 transcribe-audio/route.ts # Whisper transcription
-    │       └── 📄 upload-docx/route.ts     # Document processing
+    │       └── 💬 chat-stream/route.ts  # Streaming AI endpoint
     └── 🧩 components/
-        ├── 🤖 TestChatBot.tsx     # Main AI interface
-        ├── 🔊 GeminiTTS.tsx       # Gemini TTS component
-        ├── ⚙️ ResponseActions.tsx # TTS, Copy, Word export
-        ├── 📸 CameraCapture.tsx   # Camera functionality
+        ├── 🏒 SportsChatBot.tsx   # Main chat interface
         ├── 📝 MarkdownRenderer.tsx # Response formatting
-        ├── 📁 FileUpload.tsx      # File handling
-        ├── 🗣️ VoiceInput.tsx      # Speech recognition
-        └── 📋 CopyButton.tsx      # Copy functionality
+        └── ⚙️ ResponseActions.tsx  # TTS, Copy, Export
 ```
 
-### 🔌 **API Endpoints**
+### 🔌 **API Integration**
+- **Gemini 2.5 Flash**: Snelle, hoogkwaardige AI responses
+- **Streaming Responses**: Real-time conversatie ervaring
+- **Context Awareness**: Houdt gesprekgeschiedenis bij
+- **Persona Consistency**: Blijft in karakter gedurende het gesprek
 
-| Endpoint | Functie | Input | Output |
-|----------|---------|-------|--------|
-| `/api/chat` | Gemini AI Conversatie | `message`, `images[]`, `aiModel` | AI Response |
-| `/api/chat-stream` | Streaming AI Response | `message`, `images[]`, `aiModel` | Server-Sent Events |
-| `/api/generate-tts` | Gemini TTS Audio | `text`, `voiceName`, `emotion` | WAV Audio |
-| `/api/transcribe-audio` | Audio → Tekst | Audio File | Transcriptie |
-| `/api/upload-docx` | Document Processing | PDF/DOCX/CSV | Extracted Text |
+## 🎯 Voorbeeldvragen voor Studenten
 
-### 📊 **Supported File Formats**
+### 📊 **Merkstrategie & Positionering**
+- "Hoe positioneert Dita zich ten opzichte van concurrenten zoals Grays en TK?"
+- "Wat maakt Dita uniek in de hockeymarkt?"
+- "Hoe communiceren jullie de premium positionering naar consumenten?"
 
-| Category | Formats | Processing | Max Size |
-|----------|---------|------------|----------|
-| 📸 **Images** | JPG, PNG, GIF, WebP, BMP | Gemini Vision | 20MB |
-| 🎵 **Audio** | MP3, WAV, AIFF, AAC, OGG, FLAC | Gemini 2.5 Flash | 25MB |
-| 📄 **Documents** | PDF, DOCX, TXT, MD | Text Extraction | 10MB |
-| 📊 **Data** | CSV, JSON | Structure Parsing | 5MB |
+### 🤝 **Sponsoring & Partnerships**
+- "Hoe selecteren jullie atleten voor sponsordeals?"
+- "Wat is het ROI van sponsoring van nationale teams?"
+- "Hoe meten jullie het succes van partnerships?"
 
-## 🔧 Advanced Usage & Customization
+### 🌍 **Internationale Expansie**
+- "Welke uitdagingen hebben jullie bij het betreden van nieuwe markten?"
+- "Hoe passen jullie de merkboodschap aan per land?"
+- "Wat is jullie strategie voor de Aziatische markt?"
 
-### 🎨 **Styling Customization**
-```css
-/* globals.css - Pas het kleurenschema aan */
-:root {
-  --primary-color: #9333ea;     /* Paars accent */
-  --secondary-color: #f3f4f6;   /* Light background */
-  --text-color: #1f2937;        /* Dark text */
-}
-```
+### 📱 **Digital Marketing**
+- "Hoe gebruiken jullie social media voor merkactivatie?"
+- "Wat is jullie strategie voor influencer marketing?"
+- "Hoe meten jullie online engagement?"
 
-### 🤖 **Gemini Model Configuration**
-```typescript
-// src/app/api/chat/route.ts
-const modelName = aiModel === 'pro' ? 'gemini-2.5-pro-preview-06-05' :
-                 aiModel === 'smart' ? 'gemini-2.5-flash-preview-05-20' :
-                 'gemini-2.0-flash-exp' // internet model
-```
+### 🏆 **Uitdagingen & Trends**
+- "Wat zijn de grootste uitdagingen in hockeymarketing?"
+- "Hoe reageren jullie op veranderende consumentengedrag?"
+- "Welke trends zien jullie in de sportindustrie?"
 
-### 🔊 **TTS Engine Customization**
-```typescript
-// src/components/ResponseActions.tsx
-const [useGeminiTTS, setUseGeminiTTS] = useState(false) // Default to Microsoft TTS
-const [selectedGeminiVoice, setSelectedGeminiVoice] = useState(GEMINI_VOICES[3]) // Kore
-const [selectedGeminiEmotion, setSelectedGeminiEmotion] = useState(EMOTION_STYLES[0]) // Neutraal
-```
+## 🔧 Uitbreidingsmogelijkheden
 
-### 🎵 **Gemini Audio Transcriptie Configuration**
-```typescript
-// src/app/api/transcribe-audio/route.ts
-const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' })
-const prompt = "Transcribeer deze audio naar Nederlandse tekst. Geef alleen de getranscribeerde tekst terug, zonder extra commentaar."
-const result = await model.generateContent([prompt, audioPart])
-const transcription = result.response.text()
-```
+### 🏀 **Meer Sportmerken**
+- **Nike Basketball**: Global brand strategy
+- **Adidas Football**: Sponsoring en partnerships
+- **Specialized Cycling**: Premium fietsmarkt
+- **Wilson Tennis**: Racket sport marketing
+- **Burton Snowboarding**: Lifestyle marketing
 
-## 🌐 Production Deployment
+### 🎯 **Extra Features**
+- **Multi-language Support**: Engels, Duits, Frans
+- **Video Responses**: AI-gegenereerde video interviews
+- **Assessment Mode**: Automatische beoordeling van vragen
+- **Group Interviews**: Meerdere studenten tegelijk
+- **Historical Data**: Vergelijk strategieën door de tijd
 
-### 🎯 **Netlify (Aanbevolen)**
-**Via Bolt.new:**
-1. ✅ "Deploy to Netlify" button
-2. ✅ Build settings: `npm run build`
-3. ✅ Environment variables toevoegen
-4. ✅ Automatische HTTPS & CDN
+### 📊 **Analytics Dashboard**
+- **Student Progress**: Track leervoortgang
+- **Popular Questions**: Meest gestelde vragen
+- **Engagement Metrics**: Gespreksduur en diepte
+- **Learning Outcomes**: Educatieve effectiviteit
 
-**Handmatig:**
+## 🚀 Production Deployment
+
+### 🌐 **Netlify (Aanbevolen)**
 ```bash
 # Build voor productie
 npm run build
 
-# Deploy naar Netlify CLI
-npm install -g netlify-cli
-netlify deploy --prod --dir=.next
+# Environment variables instellen:
+GEMINI_API_KEY=your_api_key_here
+NODE_ENV=production
 ```
 
-### ⚡ **Vercel Alternative**
-```bash
-# Vercel deployment
-npm install -g vercel
-vercel --prod
-# Vergeet niet environment variables in te stellen!
-```
+### ⚡ **Performance Optimizations**
+- **Streaming Responses**: Snelle, real-time conversaties
+- **Efficient Prompting**: Geoptimaliseerde AI prompts
+- **Caching**: Smart caching van responses
+- **Mobile Optimized**: Perfect op alle apparaten
 
-### 🔧 **Environment Variables (Production)**
-```
-GEMINI_API_KEY=gai_xxxxxxxxxxxxx     # Google AI Studio
-OPENAI_API_KEY=sk-proj-xxxxxxxxxx    # OpenAI Platform
-NODE_ENV=production                   # Auto-set door Netlify
-```
+## 🎓 Educatieve Impact
 
-## 🚨 Troubleshooting & Common Issues
+### 📈 **Leerresultaten**
+- **Praktische Kennis**: Echte branche inzichten
+- **Interview Skills**: Betere vraagstelling
+- **Strategisch Denken**: Begrip van merkstrategie
+- **Branche Awareness**: Kennis van sportmarketing
 
-### ❌ **Build Failures**
-| Error | Oorzaak | Oplossing |
-|-------|---------|-----------|
-| `GEMINI_API_KEY not found` | Missing env var | Check Netlify environment variables |
-| `Module not found: openai` | Missing dependency | Run `npm install` |
-| `Build command failed` | Wrong build settings | Set build command to `npm run build` |
-| `Hydration mismatch` | SSR/Client mismatch | Clear `.next` cache, restart dev server |
-
-### 🔧 **API Issues**
-| Problem | Solution |
-|---------|----------|
-| Gemini 429 Error | Check API quota/billing |
-| Whisper fails | Verify audio format & size |
-| Upload timeout | Reduce file size < 25MB |
-| CORS errors | Check API route configuration |
-
-### 📱 **Mobile Issues**
-- **Camera niet beschikbaar**: Gebruik HTTPS (required voor camera API)
-- **File upload fails**: Check mobile browser compatibility
-- **Touch events**: Tested op iOS Safari & Android Chrome
-
-## 🎓 Educational Use Cases
-
-### 👨‍🏫 **Voor Docenten**
-- 🎙️ **Lezingen transcriberen** en analyseren met AI
-- 📸 **Werkstukken fotograferen** en automatisch feedback geven  
-- 📄 **PDF's uploaden** voor snelle samenvatting
-- 🗣️ **Spraaknotities** omzetten naar tekst en structureren
-
-### 👩‍🎓 **Voor Studenten**
-- 📝 **Aantekeningen verbeteren** met AI ondersteuning
-- 🔍 **Complexe teksten analyseren** en uitleggen
-- 🎨 **Creatieve projecten** met multi-modal input
-- 💡 **Concepten begrijpen** door verschillende media te combineren
-
-### 🏫 **Institutionele Deployment**
-```bash
-# Multi-tenant setup
-GEMINI_API_KEY=shared_institutional_key
-OPENAI_API_KEY=shared_whisper_key
-STUDENT_MODE=true                    # Simplified interface
-ADMIN_DASHBOARD=true                # Usage analytics
-```
-
-## 🔒 Security & Privacy
-
-### 🛡️ **Data Protection**
-- ✅ **Server-side API keys**: Nooit client-side exposed
-- ✅ **File validation**: Strict type & size checking  
-- ✅ **Input sanitization**: XSS prevention
-- ✅ **HTTPS only**: Secure transmission
-
-### 📊 **Data Handling**
-- 🔄 **Temporary processing**: Files niet permanent opgeslagen
-- 🗑️ **Auto-cleanup**: Uploads automatisch verwijderd
-- 🚫 **No tracking**: Geen user analytics by default
-- 🔐 **Privacy first**: GDPR compliant design
+### 🏆 **Success Stories**
+- Studenten ontwikkelen betere marketing plannen
+- Verhoogde engagement in marketing lessen
+- Praktische voorbereiding op stage/werk
+- Dieper begrip van sport business
 
 ## 🤝 Contributing & Development
 
@@ -337,55 +221,41 @@ ADMIN_DASHBOARD=true                # Usage analytics
 # Development mode
 npm run dev
 
-# Type checking  
+# Type checking
 npm run lint
 
 # Production build test
 npm run build && npm start
 ```
 
-### 📈 **Feature Roadmap**
-- [ ] **PDF OCR**: Scanned documents verwerken
-- [ ] **Video Upload**: Frame extraction en analyse
-- [ ] **Real-time Collaboration**: Multiple users
-- [ ] **Template Library**: Pre-made educational prompts
-- [ ] **Analytics Dashboard**: Usage insights
-- [ ] **SSO Integration**: School account systems
+### 🔄 **Adding New Personas**
+1. Voeg nieuwe manager toe aan `MARKETING_MANAGERS` object
+2. Definieer achtergrond, expertise en persoonlijkheid
+3. Test de persona met verschillende vraagtypen
+4. Update documentatie en voorbeeldvragen
 
-### 🐛 **Bug Reports**
-Found een issue? [Open een GitHub Issue](https://github.com/TomNaberink/templateAPIinclcamera/issues) met:
-- 🖥️ Browser & OS version
-- 📝 Steps to reproduce
-- 📋 Error messages/screenshots
-- 🎯 Expected vs actual behavior
+## 📞 Support & Contact
 
-## 📚 Resources & Links
-
-### 🔗 **API Documentation**
-- [Gemini API Docs](https://ai.google.dev/docs) - Google AI ontwikkelaar resources
-- [OpenAI Whisper](https://platform.openai.com/docs/guides/speech-to-text) - Audio transcriptie
-- [Next.js 15](https://nextjs.org/docs) - Framework documentatie
-
-### 🎥 **Video Tutorials**
-- [Gemini API Setup](https://makersuite.google.com/app/apikey) - API key verkrijgen
-- [Netlify Deployment](https://netlify.com) - Hosting platform
-- [OpenAI Platform](https://platform.openai.com) - Whisper API setup
+### 🔗 **Resources**
+- [Gemini API Docs](https://ai.google.dev/docs)
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Netlify Deployment](https://netlify.com)
 
 ### 💡 **Community**
-- [GitHub Repository](https://github.com/TomNaberink/templateAPIinclcamera)
-- [Issues & Feature Requests](https://github.com/TomNaberink/templateAPIinclcamera/issues)
-- [Tom Naberink LinkedIn](https://linkedin.com/in/tomnaberink) - Direct contact
+- GitHub Issues voor bug reports
+- Feature requests welkom
+- Educatieve feedback gewaardeerd
 
 ---
 
-## 🎉 **Ready to Transform Education?**
+## 🎉 **Klaar om te Starten?**
 
-Deze template geeft je **alles** wat je nodig hebt om geavanceerde AI-applicaties te bouwen voor het onderwijs. Van simpele chatbots tot complexe multi-modal AI-assistenten - de mogelijkheden zijn eindeloos!
+Deze Sports Marketing Interview Bot biedt studenten een unieke kans om te leren van ervaren marketing professionals in de sportindustrie. Van merkstrategie tot internationale expansie - alle aspecten van sportmarketing komen aan bod in realistische, interactieve gesprekken.
 
-**💜 Gemaakt met passie door Tom Naberink**  
-**🚀 Deploy nu en start met bouwen aan de toekomst van onderwijs!**
+**🏒 Start nu je eerste interview met Sarah van Dita Hockey!**
 
 ---
 
-*Versie 1.0 - Complete AI Education Template*  
-*Last updated: Juni 2025* 
+*Sports Marketing Interview Bot v1.0*  
+*Voor educatieve doeleinden • Powered by Gemini AI*  
+*Last updated: December 2024*
